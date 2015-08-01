@@ -1,0 +1,107 @@
+Xcursor.theme: Vanilla-DMZ
+
+! urxvt config
+urxvt*termName: rxvt-256color
+urxvt*buffered: true
+urxvt*boldFont: -misc-fixed-bold-r-normal--14-130-75-75-c-70-iso10646-1
+urxvt*font:   -misc-fixed-medium-r-normal--14-130-75-75-c-70-iso10646-1
+             
+!urxvt*boldFont: -misc-fixed-bold-r-normal--14---75---iso8859-1
+urxvt*secondaryScroll:true
+urxvt*saveLines: 6000
+urxvt*scrollBar: false
+urxvt*cursorBlink: true
+!urxvt*visualBell: true
+urxvt*urgentOnBell: true
+urxvt*cursorColor: #FFCC00
+urxvt*externalBorder: 0
+!urxv*internalBorder: 5
+!urxvt*cursorUnderline: true
+
+! handle urls
+urxvt*perl-ext-common:	default,matcher
+urxvt*urlLauncher: chromium
+urxvt.matcher.button: 2
+urxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+
+! teh transparency stuff
+urxvt*depth:32
+!urxvt*inheritPixmap: true
+urxvt*tintColor: #434343
+!urxvt*shading: 40
+!urxvt*transparent: true
+
+! change default colors
+!urxvt*background: #010101
+urxvt*background:rgba:0021/0021/0021/cccc
+urxvt*foreground: #A8A8A8
+urxvt*color0: #212121
+urxvt*color1: #A80000
+urxvt*color2: #00A800
+urxvt*color3: #A85400
+urxvt*color4: #0000A8
+urxvt*color5: #A800A8
+urxvt*color6: #00A8A8
+urxvt*color7: #A8A8A8
+urxvt*color8: #545054
+urxvt*color9: #F85450
+urxvt*color10: #50FC50
+urxvt*color11: #F2FC50
+urxvt*color12: #5054F8
+urxvt*color13: #F854F8
+urxvt*color14: #50FCF8
+urxvt*color15: #F8FCF8
+
+! xterm config
+xterm*font:   -misc-fixed-medium-r-normal--14-130-75-75-c-70-iso10646-1
+xterm*termName: xterm
+xterm*background: #121212
+xterm*foreground: #A8A8A8
+xterm*color0: #010101
+xterm*color1: #A80000
+xterm*color2: #00A800
+xterm*color3: #A85400
+xterm*color4: #0000A8
+xterm*color5: #A800A8
+xterm*color6: #00A8A8
+xterm*color7: #A8A8A8
+xterm*color8: #545054
+xterm*color9: #F85450
+xterm*color10: #50FC50
+xterm*color11: #F2FC50
+xterm*color12: #5054F8
+xterm*color13: #F854F8
+xterm*color14: #50FCF8
+xterm*color15: #F8FCF8
+
+
+
+! xscreensaver ---------------------------------------------------------------
+
+!font settings
+xscreensaver.Dialog.headingFont:        -*-terminus-bold-r-*-*-16-*-*-*-*-*-*
+xscreensaver.Dialog.bodyFont:           -*-terminus-bold-r-*-*-16-*-*-*-*-*-*
+xscreensaver.Dialog.labelFont:          -*-terminus-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.unameFont:          -*-terminus-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.buttonFont:         -*-terminus-bold-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.dateFont:           -*-terminus-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.passwd.passwdFont:         -*-terminus-bold-r-*-*-14-*-*-*-*-*-*-*
+!general dialog box (affects main hostname, username, password text)
+xscreensaver.Dialog.foreground:         #ffffff
+xscreensaver.Dialog.background:         #111111
+xscreensaver.Dialog.topShadowColor:     #111111
+xscreensaver.Dialog.bottomShadowColor:  #111111
+xscreensaver.Dialog.Button.foreground:  #666666
+xscreensaver.Dialog.Button.background:  #ffffff
+!username/password input box and date text colour
+xscreensaver.Dialog.text.foreground:    #666666
+xscreensaver.Dialog.text.background:    #ffffff
+xscreensaver.Dialog.internalBorderWidth:24
+xscreensaver.Dialog.borderWidth:        20
+xscreensaver.Dialog.shadowThickness:    2
+!timeout bar (background is actually determined by Dialog.text.background)
+xscreensaver.passwd.thermometer.foreground:  #ff0000
+xscreensaver.passwd.thermometer.background:  #000000
+xscreensaver.passwd.thermometer.width:       8
+!datestamp format--see the strftime(3) manual page for details
+xscreensaver.dateFormat:    %I:%M%P %a %b %d, %Y

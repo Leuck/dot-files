@@ -99,3 +99,4 @@ if !exists(":DiffOrig")
 endif
 set number
 set background=dark
+" set et sw=4 tw=4

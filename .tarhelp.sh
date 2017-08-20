@@ -33,6 +33,10 @@ then
                 echo "Deflating $filename"
                 tar -jxvf $filename
                 ;;
+            "xz")
+                echo "Deflating $filename"
+                tar -Jxvf $filename
+                ;;
             "rar")
                 echo "Deflating $filename"
                 unrar e $filename
@@ -68,6 +72,10 @@ then
                     "bz2")
                         echo "Listing $filename"
                         tar -jtvf $filename
+                        ;;
+                    "xz")
+                        echo "Listing $filename"
+                        tar -Jtvf $filename
                         ;;
                     "rar")
                         echo "Listing $filename"
